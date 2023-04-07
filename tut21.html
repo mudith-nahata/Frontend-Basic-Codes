@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Lato:wght@100&display=swap" rel="stylesheet">
+    <style>
+        *{
+
+        }
+        body{
+            font-family: 'Edu NSW ACT Foundation', cursive;
+
+        }
+        .container{
+            width: 900px;
+            border: 3px solid purple;
+            margin: auto;
+        }
+        .items{
+            border: 3px solid grey;
+            margin: 12px 3px;
+            /* where 12pixel in y and 3px in x */
+            padding:12px 3px;
+            background: rgb(248,238,238);
+
+
+        }
+        #fruits{
+            float: left;
+            width: 48%;
+        }
+        #Computer{
+            float:left;
+            width: 48%;
+        }
+        #Stationary{
+            /* float: left; */
+            /* clear: right; */
+            /* clear:left; */
+            clear: both;
+            width: 98%;
+        }
+        p,h1{
+            text-align: right;
+            text-align: left;
+            text-align: center;
+            text-align: justify;
+        }
+        h1{
+            margin: auto;
+            width: 465px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to My Store</h1><b></b>
+        <div id="fruits" class="items">
+            <h3>fruits</h3>
+            <p id="fruitspara" class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam fugiat quo culpa necessitatibus, ducimus velit quaerat alias aperiam assumenda mollitia fugit harum possimus.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non deleniti vero eaque corrupti fuga sint cupiditate beatae nihil quos quod. Nesciunt ad consequatur veritatis! Repellendus cupiditate recusandae quibusdam consequatur, alias quia in minus dicta!</p><b></b>
+        </div>
+        <div id="Computer" class="items">
+            <h3>Computer</h3>
+            <p id="computerpara" class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem incidunt aliquam error ratione ad adipisci atque dignissimos distinctio modi! Quibusdam consequuntur rerum qui. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur itaque numquam culpa impedit animi quidem facilis consequuntur modi, at deserunt voluptatem obcaecati nihil nemo beatae sunt dolorem similique? Vero repudiandae nostrum eligendi possimus. Consequatur!</p><b></b>
+        </div>
+        <div id="Stationary" class="items">
+            <h3>Stationary</h3>
+            <p id="Stationarypara" class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id, quasi tempore tenetur commodi, quisquam rerum architecto eius aliquam atque cupiditate molestias deleniti voluptatum.</p><b></b>
+        </div>
+        <div id="glasses" class="items">
+            <h3>glasses</h3>
+            <p id="glassespara" class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id, quasi tempore tenetur commodi, quisquam rerum architecto eius aliquam atque cupiditate molestias deleniti voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus enim perspiciatis eum neque recusandae maiores, architecto voluptate qui, mollitia voluptas autem necessitatibus minus!</p><b></b>
+        </div>
+        <div id="Mudith" class="items">
+            <h3>Mudith Nahata</h3>
+            <p id="Mudithpara" class="para">Hello Everyone!Iam Mudith Nahata,An Enterprenuer Packed With an Engineering Mind.Mostly You Will See Me Coding DSA in Python & Love to Devlop Web Applications<p><b></b>
+        </div>
+    </div>
+</body>
+</html>

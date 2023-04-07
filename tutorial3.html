@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- This is the tutorial for forms and Tags-->
+    <h2>This is Form Tutorial</h2>
+    <form action="backend.php">
+        <label for="name"> Name </label>
+        <div>
+            <input type="text" name="my Name",id="name">
+        </div>
+        <br>
+        <div>
+            <label for="role">Role</label>
+            <input type="text" name="my Role",id="role">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="my Email",id="email">
+        </div>
+        <br>
+        <div>
+            <label for="date">Date</label>
+            <input type="date",id="date">
+        </div>
+        <br>
+        <div>
+            Are you Eligible ?:<input type="checkbox",name="my Eligible" checked>
+        </div>
+        <br>
+        <div>
+            Gender: Male<input type="radio",name="my Gender"> female<input type="radio",name="my Gender">
+        </div>
+        <br>
+        <label for="car">CAR</label>
+        <select name="My Car" id="car">
+            <option value="ind" selected>Indica</option>
+            <option value="Bal">Baleno</option>
+            <option value="Ver">Verna</option>
+        </select>
+        <br>
+        <div>
+            <br>Write about Yourself:<br><textarea name="my Text" rows="90" col="60"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="submit",value="Submit Now">
+            <input type="reset",name="my Reset">
+        </div>
+    </form>
+</body>
+</html>
