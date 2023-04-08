@@ -1,2 +1,2 @@
-# Frontened-Basic-Codes
-||Basic Frontened Codes From Scratch|| HTML5||CSS3||
+# Frontend-Basic-Codes
+||Basic Frontend Codes From Scratch|| HTML5||CSS3||
